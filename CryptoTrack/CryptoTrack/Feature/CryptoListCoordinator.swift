@@ -24,4 +24,10 @@ final class CryptoListCoordinator: BaseCoordinator {
         viewController.navigator = self
         navigationController.pushViewController(viewController, animated: true)
     }
+    
+    func showCryptoDetails(cryptoPrice: CryptoPriceEntity, cryptoHolding: CryptoHoldingEntity) {
+        let viewController = sceneProvider.makeCryptoDetailsScene(cryptoPrice: cryptoPrice, cryptoHolding: cryptoHolding)
+        viewController.modalPresentationStyle = .overCurrentContext
+        navigationController.present(viewController, animated: true)
+    }
 }

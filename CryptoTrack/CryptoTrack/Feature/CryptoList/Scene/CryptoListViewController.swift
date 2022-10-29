@@ -65,6 +65,6 @@ extension CryptoListViewController: UITableViewDataSource {
 
 extension CryptoListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
+        self.navigator?.showCryptoDetails(cryptoPrice: (viewModel.cryptoData?.cryptoPrices[indexPath.row])!, cryptoHolding: (viewModel.cryptoData?.cryptoHoldings[indexPath.row])!)
     }
 }

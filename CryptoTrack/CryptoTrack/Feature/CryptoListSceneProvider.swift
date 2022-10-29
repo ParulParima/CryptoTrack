@@ -15,4 +15,9 @@ class CryptoListSceneProvider {
         let  controller = CryptoListViewController(viewModel: viewModel)
         return controller
     }
+    func makeCryptoDetailsScene(cryptoPrice: CryptoPriceEntity, cryptoHolding: CryptoHoldingEntity) -> CryptoDetailsViewController {
+        let viewModel = CryptoDetailsViewModel(cryptoPrice: cryptoPrice, cryptoHolding: cryptoHolding)
+        let controller = CryptoDetailsViewController(viewModel: viewModel)
+        return controller
+    }
 }
