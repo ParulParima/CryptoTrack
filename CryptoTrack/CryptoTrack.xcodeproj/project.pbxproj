@@ -16,6 +16,8 @@
 		D12021CD290D61F7003AB727 /* CryptoTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12021CC290D61F7003AB727 /* CryptoTrackTests.swift */; };
 		D12021D7290D61F7003AB727 /* CryptoTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12021D6290D61F7003AB727 /* CryptoTrackUITests.swift */; };
 		D12021D9290D61F7003AB727 /* CryptoTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12021D8290D61F7003AB727 /* CryptoTrackUITestsLaunchTests.swift */; };
+		D12021F2290D6411003AB727 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12021F1290D6411003AB727 /* BaseCoordinator.swift */; };
+		D12021F4290D6430003AB727 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12021F3290D6430003AB727 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D12021D2290D61F7003AB727 /* CryptoTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12021D6290D61F7003AB727 /* CryptoTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackUITests.swift; sourceTree = "<group>"; };
 		D12021D8290D61F7003AB727 /* CryptoTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D12021F1290D6411003AB727 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		D12021F3290D6430003AB727 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,8 @@
 		D12021B4290D61F6003AB727 /* CryptoTrack */ = {
 			isa = PBXGroup;
 			children = (
-				D12021B5290D61F6003AB727 /* AppDelegate.swift */,
-				D12021B7290D61F6003AB727 /* SceneDelegate.swift */,
+				D12021E6290D6294003AB727 /* Feature */,
+				D12021E5290D627F003AB727 /* Application */,
 				D12021B9290D61F6003AB727 /* ViewController.swift */,
 				D12021BB290D61F6003AB727 /* Main.storyboard */,
 				D12021BE290D61F7003AB727 /* Assets.xcassets */,
@@ -125,6 +129,104 @@
 				D12021D8290D61F7003AB727 /* CryptoTrackUITestsLaunchTests.swift */,
 			);
 			path = CryptoTrackUITests;
+			sourceTree = "<group>";
+		};
+		D12021E5290D627F003AB727 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D12021ED290D6383003AB727 /* Helper */,
+				D12021B5290D61F6003AB727 /* AppDelegate.swift */,
+				D12021B7290D61F6003AB727 /* SceneDelegate.swift */,
+				D12021F1290D6411003AB727 /* BaseCoordinator.swift */,
+				D12021F3290D6430003AB727 /* AppCoordinator.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D12021E6290D6294003AB727 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				D12021E9290D6330003AB727 /* CryptoList */,
+				D12021E7290D630E003AB727 /* CryptoDetails */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		D12021E7290D630E003AB727 /* CryptoDetails */ = {
+			isa = PBXGroup;
+			children = (
+				D12021E8290D631D003AB727 /* Scenes */,
+			);
+			path = CryptoDetails;
+			sourceTree = "<group>";
+		};
+		D12021E8290D631D003AB727 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D12021E9290D6330003AB727 /* CryptoList */ = {
+			isa = PBXGroup;
+			children = (
+				D12021EC290D636B003AB727 /* Scene */,
+				D12021EB290D6362003AB727 /* Data */,
+				D12021EA290D6355003AB727 /* Domain */,
+			);
+			path = CryptoList;
+			sourceTree = "<group>";
+		};
+		D12021EA290D6355003AB727 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D12021EE290D639C003AB727 /* Entity */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D12021EB290D6362003AB727 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D12021F0290D63B0003AB727 /* Services */,
+				D12021EF290D63A6003AB727 /* Response */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D12021EC290D636B003AB727 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		D12021ED290D6383003AB727 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D12021EE290D639C003AB727 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		D12021EF290D63A6003AB727 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		D12021F0290D63B0003AB727 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +362,9 @@
 			files = (
 				D12021BA290D61F6003AB727 /* ViewController.swift in Sources */,
 				D12021B6290D61F6003AB727 /* AppDelegate.swift in Sources */,
+				D12021F4290D6430003AB727 /* AppCoordinator.swift in Sources */,
 				D12021B8290D61F6003AB727 /* SceneDelegate.swift in Sources */,
+				D12021F2290D6411003AB727 /* BaseCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol BaseCoordinator: AnyObject {
+    var childCoordinator: [BaseCoordinator] {get}
+    func start()
+}
