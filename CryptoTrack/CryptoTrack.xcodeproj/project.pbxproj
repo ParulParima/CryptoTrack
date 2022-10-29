@@ -32,6 +32,8 @@
 		D120220C290D6AE5003AB727 /* CryptoHoldingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D120220B290D6AE5003AB727 /* CryptoHoldingResponse.swift */; };
 		D120220E290D6AF8003AB727 /* CryptoPriceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D120220D290D6AF8003AB727 /* CryptoPriceResponse.swift */; };
 		D1202210290D6B09003AB727 /* TransactionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D120220F290D6B09003AB727 /* TransactionResponse.swift */; };
+		D1202212290D6C55003AB727 /* CryptoListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1202211290D6C55003AB727 /* CryptoListCoordinator.swift */; };
+		D1202214290D6C76003AB727 /* CryptoListSceneProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1202213290D6C76003AB727 /* CryptoListSceneProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		D120220B290D6AE5003AB727 /* CryptoHoldingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoHoldingResponse.swift; sourceTree = "<group>"; };
 		D120220D290D6AF8003AB727 /* CryptoPriceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPriceResponse.swift; sourceTree = "<group>"; };
 		D120220F290D6B09003AB727 /* TransactionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResponse.swift; sourceTree = "<group>"; };
+		D1202211290D6C55003AB727 /* CryptoListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListCoordinator.swift; sourceTree = "<group>"; };
+		D1202213290D6C76003AB727 /* CryptoListSceneProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListSceneProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +181,8 @@
 			children = (
 				D12021E9290D6330003AB727 /* CryptoList */,
 				D12021E7290D630E003AB727 /* CryptoDetails */,
+				D1202211290D6C55003AB727 /* CryptoListCoordinator.swift */,
+				D1202213290D6C76003AB727 /* CryptoListSceneProvider.swift */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -409,9 +415,11 @@
 				D1202202290D69F1003AB727 /* CryptoHoldingEntity.swift in Sources */,
 				D12021B6290D61F6003AB727 /* AppDelegate.swift in Sources */,
 				D12021F8290D6879003AB727 /* CryptoListService.swift in Sources */,
+				D1202212290D6C55003AB727 /* CryptoListCoordinator.swift in Sources */,
 				D12021F4290D6430003AB727 /* AppCoordinator.swift in Sources */,
 				D120220E290D6AF8003AB727 /* CryptoPriceResponse.swift in Sources */,
 				D120220C290D6AE5003AB727 /* CryptoHoldingResponse.swift in Sources */,
+				D1202214290D6C76003AB727 /* CryptoListSceneProvider.swift in Sources */,
 				D1202204290D6A03003AB727 /* CryptoPriceEntity.swift in Sources */,
 				D12021B8290D61F6003AB727 /* SceneDelegate.swift in Sources */,
 				D12021FC290D693B003AB727 /* DomainConvertableType.swift in Sources */,
