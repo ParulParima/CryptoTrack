@@ -20,5 +20,8 @@ final class CryptoListCoordinator: BaseCoordinator {
     }
     
     func start() {
+        let viewController = sceneProvider.makeCryptoListScene()
+        viewController.navigator = self
+        navigationController.pushViewController(viewController, animated: true)
     }
 }

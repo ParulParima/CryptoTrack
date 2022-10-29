@@ -10,5 +10,9 @@ import Foundation
 import UIKit
 
 class CryptoListSceneProvider {
-    
+    func makeCryptoListScene() -> CryptoListViewController {
+        let viewModel = CryptoListViewModel()
+        let  controller = CryptoListViewController(viewModel: viewModel)
+        return controller
+    }
 }
