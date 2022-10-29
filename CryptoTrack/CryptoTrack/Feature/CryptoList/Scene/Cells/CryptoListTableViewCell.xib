@@ -47,15 +47,24 @@
                             <constraint firstAttribute="width" constant="50" id="zXs-fa-KHC"/>
                         </constraints>
                     </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KqZ-tQ-g58">
+                        <rect key="frame" x="260.33333333333331" y="46.666666666666664" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="POw-0r-Z4x"/>
+                            <constraint firstAttribute="height" constant="15" id="ygE-8N-Pbm"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="jY6-H9-5Le" secondAttribute="trailing" constant="10" id="3iH-lU-qeO"/>
                     <constraint firstItem="OYG-Kl-ask" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="4vd-83-bMw"/>
                     <constraint firstItem="OYG-Kl-ask" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="7Er-qF-1Eu"/>
+                    <constraint firstItem="KqZ-tQ-g58" firstAttribute="centerY" secondItem="YWJ-ba-yhG" secondAttribute="centerY" id="AGs-yw-Yx7"/>
                     <constraint firstItem="Qac-S1-oBi" firstAttribute="leading" secondItem="q78-65-ehP" secondAttribute="leading" id="D7R-8i-Y8T"/>
                     <constraint firstAttribute="trailing" secondItem="YWJ-ba-yhG" secondAttribute="trailing" constant="10" id="DT1-YY-o1G"/>
                     <constraint firstItem="q78-65-ehP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Fo1-jK-aTd"/>
                     <constraint firstItem="YWJ-ba-yhG" firstAttribute="top" secondItem="jY6-H9-5Le" secondAttribute="bottom" constant="20" id="MjF-NE-a05"/>
+                    <constraint firstItem="YWJ-ba-yhG" firstAttribute="leading" secondItem="KqZ-tQ-g58" secondAttribute="trailing" constant="5" id="dn7-CH-g6a"/>
                     <constraint firstItem="Qac-S1-oBi" firstAttribute="top" secondItem="q78-65-ehP" secondAttribute="bottom" constant="20" id="efm-aO-Z7Y"/>
                     <constraint firstItem="q78-65-ehP" firstAttribute="leading" secondItem="OYG-Kl-ask" secondAttribute="trailing" constant="10" id="flM-zE-CVJ"/>
                     <constraint firstAttribute="bottom" secondItem="OYG-Kl-ask" secondAttribute="bottom" constant="10" id="hS2-0j-yQf"/>
@@ -69,6 +78,7 @@
                 <outlet property="cryptoName" destination="q78-65-ehP" id="ACJ-FJ-GIh"/>
                 <outlet property="cryptoValue" destination="jY6-H9-5Le" id="Sta-gw-FRG"/>
                 <outlet property="cryptoVariation" destination="YWJ-ba-yhG" id="ARn-sT-jb0"/>
+                <outlet property="cryptoVariationImage" destination="KqZ-tQ-g58" id="PlU-HA-6Gb"/>
             </connections>
             <point key="canvasLocation" x="-26" y="21"/>
         </tableViewCell>

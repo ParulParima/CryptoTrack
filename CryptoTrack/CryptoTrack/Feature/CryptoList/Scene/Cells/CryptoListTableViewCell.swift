@@ -2,7 +2,7 @@
 //  CryptoListTableViewCell.swift
 //  CryptoTrack
 //
-//  Created by user229653 on 10/29/22.
+//  Created by ParulParima on 10/29/22.
 //
 
 import UIKit
@@ -15,6 +15,8 @@ class CryptoListTableViewCell: UITableViewCell {
     @IBOutlet weak var cryptoValue: UILabel!
     @IBOutlet weak var cryptoVariation: UILabel!
     @IBOutlet weak var cryptoCode: UILabel!
+    @IBOutlet weak var cryptoVariationImage: UIImageView!
+    
     
     static let identifier = "CryptoListTableViewCell"
 
@@ -54,7 +56,19 @@ class CryptoListTableViewCell: UITableViewCell {
         self.cryptoLogo.layer.cornerRadius = self.cryptoLogo.frame.height/2
         self.cryptoLogo.layer.masksToBounds = true
         
-        self.cryptoVariation.text = "20"
+        let value = Double.random(lower: -2.00, upper: 2.00)
+        
+        if value < 0 {
+            self.cryptoVariationImage.image = UIImage(named: "red_arrow")
+            self.cryptoVariation.text = String(format: "%.2f", abs(value)) + "%"
+        }
+        else {
+            self.cryptoVariationImage.image = UIImage(named: "green_arrow")
+            self.cryptoVariation.text = String(format: "%.2f", value) + "%"
+
+        }
+        
+        
         
     }
     
