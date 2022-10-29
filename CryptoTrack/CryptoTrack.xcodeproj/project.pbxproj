@@ -18,6 +18,20 @@
 		D12021D9290D61F7003AB727 /* CryptoTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12021D8290D61F7003AB727 /* CryptoTrackUITestsLaunchTests.swift */; };
 		D12021F2290D6411003AB727 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12021F1290D6411003AB727 /* BaseCoordinator.swift */; };
 		D12021F4290D6430003AB727 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12021F3290D6430003AB727 /* AppCoordinator.swift */; };
+		D12021F6290D66B2003AB727 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12021F5290D66B2003AB727 /* NetworkManager.swift */; };
+		D12021F8290D6879003AB727 /* CryptoListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12021F7290D6879003AB727 /* CryptoListService.swift */; };
+		D12021FA290D68FC003AB727 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12021F9290D68FC003AB727 /* APIConstant.swift */; };
+		D12021FC290D693B003AB727 /* DomainConvertableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12021FB290D693B003AB727 /* DomainConvertableType.swift */; };
+		D12021FE290D69A0003AB727 /* CryptoListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12021FD290D69A0003AB727 /* CryptoListEntity.swift */; };
+		D1202200290D69D7003AB727 /* CryptoBalanceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12021FF290D69D7003AB727 /* CryptoBalanceEntity.swift */; };
+		D1202202290D69F1003AB727 /* CryptoHoldingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1202201290D69F1003AB727 /* CryptoHoldingEntity.swift */; };
+		D1202204290D6A03003AB727 /* CryptoPriceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1202203290D6A03003AB727 /* CryptoPriceEntity.swift */; };
+		D1202206290D6A15003AB727 /* TransactionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1202205290D6A15003AB727 /* TransactionEntity.swift */; };
+		D1202208290D6A86003AB727 /* CryptoListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1202207290D6A86003AB727 /* CryptoListResponse.swift */; };
+		D120220A290D6AD1003AB727 /* CryptoBalanceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1202209290D6AD1003AB727 /* CryptoBalanceResponse.swift */; };
+		D120220C290D6AE5003AB727 /* CryptoHoldingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D120220B290D6AE5003AB727 /* CryptoHoldingResponse.swift */; };
+		D120220E290D6AF8003AB727 /* CryptoPriceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D120220D290D6AF8003AB727 /* CryptoPriceResponse.swift */; };
+		D1202210290D6B09003AB727 /* TransactionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D120220F290D6B09003AB727 /* TransactionResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +67,20 @@
 		D12021D8290D61F7003AB727 /* CryptoTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D12021F1290D6411003AB727 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		D12021F3290D6430003AB727 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D12021F5290D66B2003AB727 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D12021F7290D6879003AB727 /* CryptoListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListService.swift; sourceTree = "<group>"; };
+		D12021F9290D68FC003AB727 /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		D12021FB290D693B003AB727 /* DomainConvertableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainConvertableType.swift; sourceTree = "<group>"; };
+		D12021FD290D69A0003AB727 /* CryptoListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListEntity.swift; sourceTree = "<group>"; };
+		D12021FF290D69D7003AB727 /* CryptoBalanceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoBalanceEntity.swift; sourceTree = "<group>"; };
+		D1202201290D69F1003AB727 /* CryptoHoldingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoHoldingEntity.swift; sourceTree = "<group>"; };
+		D1202203290D6A03003AB727 /* CryptoPriceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPriceEntity.swift; sourceTree = "<group>"; };
+		D1202205290D6A15003AB727 /* TransactionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionEntity.swift; sourceTree = "<group>"; };
+		D1202207290D6A86003AB727 /* CryptoListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListResponse.swift; sourceTree = "<group>"; };
+		D1202209290D6AD1003AB727 /* CryptoBalanceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoBalanceResponse.swift; sourceTree = "<group>"; };
+		D120220B290D6AE5003AB727 /* CryptoHoldingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoHoldingResponse.swift; sourceTree = "<group>"; };
+		D120220D290D6AF8003AB727 /* CryptoPriceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPriceResponse.swift; sourceTree = "<group>"; };
+		D120220F290D6B09003AB727 /* TransactionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +167,7 @@
 				D12021B7290D61F6003AB727 /* SceneDelegate.swift */,
 				D12021F1290D6411003AB727 /* BaseCoordinator.swift */,
 				D12021F3290D6430003AB727 /* AppCoordinator.swift */,
+				D12021F5290D66B2003AB727 /* NetworkManager.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -204,6 +233,8 @@
 		D12021ED290D6383003AB727 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				D12021F9290D68FC003AB727 /* APIConstant.swift */,
+				D12021FB290D693B003AB727 /* DomainConvertableType.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -211,6 +242,11 @@
 		D12021EE290D639C003AB727 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				D12021FD290D69A0003AB727 /* CryptoListEntity.swift */,
+				D12021FF290D69D7003AB727 /* CryptoBalanceEntity.swift */,
+				D1202201290D69F1003AB727 /* CryptoHoldingEntity.swift */,
+				D1202203290D6A03003AB727 /* CryptoPriceEntity.swift */,
+				D1202205290D6A15003AB727 /* TransactionEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -218,6 +254,11 @@
 		D12021EF290D63A6003AB727 /* Response */ = {
 			isa = PBXGroup;
 			children = (
+				D1202207290D6A86003AB727 /* CryptoListResponse.swift */,
+				D1202209290D6AD1003AB727 /* CryptoBalanceResponse.swift */,
+				D120220B290D6AE5003AB727 /* CryptoHoldingResponse.swift */,
+				D120220D290D6AF8003AB727 /* CryptoPriceResponse.swift */,
+				D120220F290D6B09003AB727 /* TransactionResponse.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -225,6 +266,7 @@
 		D12021F0290D63B0003AB727 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				D12021F7290D6879003AB727 /* CryptoListService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -360,11 +402,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D12021FA290D68FC003AB727 /* APIConstant.swift in Sources */,
+				D1202210290D6B09003AB727 /* TransactionResponse.swift in Sources */,
+				D12021F6290D66B2003AB727 /* NetworkManager.swift in Sources */,
 				D12021BA290D61F6003AB727 /* ViewController.swift in Sources */,
+				D1202202290D69F1003AB727 /* CryptoHoldingEntity.swift in Sources */,
 				D12021B6290D61F6003AB727 /* AppDelegate.swift in Sources */,
+				D12021F8290D6879003AB727 /* CryptoListService.swift in Sources */,
 				D12021F4290D6430003AB727 /* AppCoordinator.swift in Sources */,
+				D120220E290D6AF8003AB727 /* CryptoPriceResponse.swift in Sources */,
+				D120220C290D6AE5003AB727 /* CryptoHoldingResponse.swift in Sources */,
+				D1202204290D6A03003AB727 /* CryptoPriceEntity.swift in Sources */,
 				D12021B8290D61F6003AB727 /* SceneDelegate.swift in Sources */,
+				D12021FC290D693B003AB727 /* DomainConvertableType.swift in Sources */,
 				D12021F2290D6411003AB727 /* BaseCoordinator.swift in Sources */,
+				D1202206290D6A15003AB727 /* TransactionEntity.swift in Sources */,
+				D120220A290D6AD1003AB727 /* CryptoBalanceResponse.swift in Sources */,
+				D12021FE290D69A0003AB727 /* CryptoListEntity.swift in Sources */,
+				D1202200290D69D7003AB727 /* CryptoBalanceEntity.swift in Sources */,
+				D1202208290D6A86003AB727 /* CryptoListResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
